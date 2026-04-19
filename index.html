@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="wrapper">
+      <h1>What’s Cooking Today?</h1>
+
+      <form class="recipeForm">
+    <button type="submit">Show Me a Recipe</button>
+   </form>
+  
+      <h2>let us inspire your next meal!</h2>
+    </div>
+  </header>
+
+     <div class="recipeBox">
+    <div class="imgBox"></div>
+    <h2 class="title"></h2>
+    <div class="details"></div>
+  </div>
+
+<!-- SEARCH SECTION -->
+<section class="searchSection">
+
+  <!-- BANNER WITH SEARCH BAR -->
+  <section class="simpleBanner">
+    <h2>Discover Delicious Recipes</h2>
+    <p>Your next favorite meal is just one search away.</p>
+
+    <form class="searchForm" role="search" aria-label="Search recipes">
+      <input id="searchInput" type="text" placeholder="Search a meal..." />
+      <button type="submit">Search</button>
+    </form>
+  </section>
+
+  <!-- RESULTS -->
+  <div class="resultsContainer">
+    <ul class="resultsList"></ul>
+    <div class="recipeDetails" aria-live="polite"></div>
+  </div>
+
+</section>
+
+  <script src="script.js"></script>
+
+  <footer>
+    <p>Copyright Me 2025 &copy;</p>
+  </footer>
+</body>
+
+</html>
